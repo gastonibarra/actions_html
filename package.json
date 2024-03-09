@@ -1,0 +1,16 @@
+{
+  "name": "mi-sitio-web",
+  "version": "1.0.0",
+  "description": "Descripción de mi sitio web estático",
+  "main": "index.html",
+  "scripts": {
+    "build": "tu-comando-de-construcción", 
+    "test": "tu-comando-de-prueba"
+  },
+  "repository": {
+    "type": "git",
+    "url": "URL-de-tu-repositorio-git"
+  },
+  "author": "Tu nombre",
+  "license": "Licencia"
+}
