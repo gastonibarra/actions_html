@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Descripción de mi sitio web estático",
   "main": "index.html",
+  "scripts": {
+    "install": "npm install"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/gastonibarra/actions_html"
@@ -10,4 +13,3 @@
   "author": "gastonibarra",
   "license": "MIT"
 }
-
