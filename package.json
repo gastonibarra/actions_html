@@ -4,13 +4,13 @@
   "description": "Descripción de mi sitio web estático",
   "main": "index.html",
   "scripts": {
-    "build": "tu-comando-de-construcción", 
-    "test": "tu-comando-de-prueba"
+    "build": "your-build-command",
+    "test": "your-test-command"
   },
   "repository": {
     "type": "git",
-    "url": "URL-de-tu-repositorio-git"
+    "url": "https://github.com/gastonibarra/actions_html"
   },
-  "author": "Tu nombre",
-  "license": "Licencia"
+  "author": "gastonibarra",
+  "license": "MIT"
 }
