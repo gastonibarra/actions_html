@@ -32,4 +32,4 @@ jobs:
         SMTP_PASSWORD: ${{ secrets.PASS }}
         EMAIL_TO: gaston.ibarra@avenga.com
       run: |
-        echo "Se ha realizado una modificación en el repositorio. Por favor revisa los cambios." 
+        echo "Se ha realizado una modificación en el repositorio. Por favor revisa los cambios."  $EMAIL_TO
