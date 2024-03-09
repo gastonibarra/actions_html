@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "Descripción de mi sitio web estático",
   "main": "index.html",
-  "scripts": {
-    "build": "your-build-command",
-    "test": "your-test-command"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/gastonibarra/actions_html"
@@ -14,3 +10,4 @@
   "author": "gastonibarra",
   "license": "MIT"
 }
+
