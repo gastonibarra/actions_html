@@ -16,3 +16,20 @@ jobs:
         with:
           github_token: ${{ secrets.TOKEN }}
           publish_dir: ./
+
+  send_email_notification:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Send email notification
+      env:
+        SMTP_SERVER: smtp.gmail.com
+        SMTP_PORT: 587
+        SMTP_USERNAME: ${{ secrets.MAIL }}
+        SMTP_PASSWORD: ${{ secrets.PASS }}
+        EMAIL_TO: gaston.ibarra@avenga.com
+      run: |
+        echo "Se ha realizado una modificación en el repositorio. Por favor revisa los cambios." | mail -s "Notificación de modificación en el repositorio" -a "From: tu-direccion-de-correo@gmail.com" $EMAIL_TO
